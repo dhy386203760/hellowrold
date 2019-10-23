@@ -15,6 +15,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(String name){
-        return "你好:"+name;
+        return "你好:"+name+",今天天气不错";
     }
 }
